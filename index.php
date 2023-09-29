@@ -1,6 +1,5 @@
 <?php
-    echo "<a href='https://php.bk1405bgl.dev'>zurück</a><br>";
-    echo "Hello World!";
+    echo '<a href="https://php.bk1405bgl.dev">zurück</a><br>';
     if (date("H") > 5 && (date("H") <= 12)) {
         echo "<br>Guten Morgen!";
     } else if (date("H") > 12 && (date("H") < 18)) {
@@ -12,12 +11,10 @@
     }
     echo "<br>";
     echo "<br>";
-    $a = 5;
-    $b = 3;
-    $c = $a + $b;
-    echo "a + b = " . $c;
-    echo "<br>";
-    echo "<br>";
-    for ($i = 1; $i <=10; $i++) {
-        echo $i . "<br>";
+?>
+    <h1><?= "Hello" ?></h1>
+<?php
+    $tags = ["HTML", "CSS", "JavaScript", "PHP"];
+    foreach ($tags as $tag) {
+        echo "$tag<br>";
     }
