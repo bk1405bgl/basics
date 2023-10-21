@@ -1,5 +1,5 @@
 <?php
-    echo '<a href="https://php.bk1405bgl.dev">zurück</a><br>';
+    echo '<a href="https://php.bk1405bgl.de">zurück</a><br>';
     if (date("H") > 5 && (date("H") <= 12)) {
         echo "<br>Guten Morgen!";
     } else if (date("H") > 12 && (date("H") < 18)) {
